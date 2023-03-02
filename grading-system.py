@@ -23,4 +23,4 @@ elif CourseScore >= 50 :
 else:
     print(studentName, "you got", CourseScore, "in", studentCourse, "and hence your grade is F. You need to sit up")    
 
-
+                            
