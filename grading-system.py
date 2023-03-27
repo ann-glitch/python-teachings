@@ -1,26 +1,29 @@
 # Write a sample school grading program to accept a student name, course and score
 # and then output them.
 
-studentName = input("What is your name?: ")
-studentCourse = input("Can you name any one of the courses you took last semester?: ")
-CourseScore = input("What was the score you got on the above mentioned course?: ")
-CourseScore = int(CourseScore)
+student_name = input("What is your name?: ")
+student_course= input("Can you name any one of the courses you took last semester?: ")
+course_score = input("What was the score you got in the above mentioned course?: ")
+course_score = int(course_score)
 
-if CourseScore >= 80:
-    print(studentName, "you got", CourseScore, "in", studentCourse, "and hence your grade is A")
-elif CourseScore >= 75:
-    print(studentName, "you got", CourseScore, "in", studentCourse, "and hence your grade is B+")
-elif CourseScore >= 70:
-    print(studentName, "you got", CourseScore, "in", studentCourse, "and hence your grade is B")
-elif CourseScore >= 65:
-    print(studentName, "you got", CourseScore, "in", studentCourse, "and hence your grade is C+")
-elif CourseScore >= 60:
-    print(studentName, "you got", CourseScore, "in", studentCourse, "and hence your grade is C")
-elif CourseScore >= 55 :
-    print(studentName, "you got", CourseScore, "in", studentCourse, "and hence your grade is D+")
-elif CourseScore >= 50 :
-    print(studentName, "you got", CourseScore, "in", studentCourse, "and hence your grade is D") 
+if course_score >= 80:
+    print("Name:", student_name, "\nCourse:", student_course, "\nScore:", course_score, "\nGrade: A. Excellent.")
+elif course_score >= 75:
+    print("Name:", student_name, "\nCourse:", student_course, "\nScore:", course_score, "\nGrade: B+. Very good.")
+elif course_score >= 70:
+    print("Name:", student_name, "\nCourse:", student_course, "\nScore:", course_score, "\nGrade: B. Good.")
+elif course_score >= 65:
+    print("Name:", student_name, "\nCourse:", student_course, "\nScore:", course_score, "\nGrade: C+. Pass")
+elif course_score >= 60:
+    print("Name:", student_name, "\nCourse:", student_course, "\nScore:", course_score, "\nGrade: C. Pass")
+elif course_score >= 55 :
+    print("Name:", student_name, "\nCourse:", student_course, "\nScore:", course_score, "\nGrade: D+. Can do better.")
+elif course_score >= 50 :
+    print("Name:", student_name, "\nCourse:", student_course, "\nScore:", course_score, "\nGrade: D. Can do better.") 
+elif course_score < 50:
+    print("Name:", student_name, "\nCourse:", student_course, "\nScore:", course_score, "\nGrade: F. You need to sit up.")
 else:
-    print(studentName, "you got", CourseScore, "in", studentCourse, "and hence your grade is F. You need to sit up")    
+    print("Invalid input")        
 
-                            
+   
+                        
