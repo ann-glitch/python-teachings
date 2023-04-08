@@ -18,13 +18,13 @@ while True:
     # logic
     if BMI <= 18.4:
         print("Name:", name, "\nAge:", age, "\nWeight:", weight,"kg", "\nHeight:", height,"m", "\nBMI:", BMI, "\nStatus: Underweight",
-               "\nAdvice: Please consider eating more.")
+               "\nAdvice: Please consider eating food high in protein and carbohydrate.")
     elif BMI > 18.4 and BMI <= 24.9: 
         print("Name:", name, "\nAge:", age, "\nWeight:", weight,"kg", "\nHeight:", height,"m", "\nBMI:", BMI, "\nStatus: Normal", 
               "\nAdvice: You are fit. Keep it up!" )
     elif BMI > 24.9 and BMI <= 39.9: 
         print("Name:", name, "\nAge:", age, "\nWeight:", weight,"kg", "\nHeight:", height,"m", "\nBMI:", BMI, "\nStatus: Overweight", 
-              "\nAdvice: Please exercise from time to time.")
+              "\nAdvice: Please consider exercising from time to time.")
     else:
         print("Name:", name, "\nAge:", age, "\nWeight:", weight,"kg", "\nHeight:", height,"m", "\nBMI:", BMI, "\nStatus: Obese",
                "\nAdvice: Please exercise more and seek medical advice also." )  
